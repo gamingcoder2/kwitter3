@@ -12,7 +12,6 @@ var firebaseConfig = {
     // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
     // Initialize Firebase
-firebase.initializeApp(firebaseConfig);
 var username=localStorage.getItem("username");
 document.getElementById("user_name").innerHTML="Welcome "+username+"!";
 function addroom(){
